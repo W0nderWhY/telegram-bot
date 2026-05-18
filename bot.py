@@ -1,6 +1,7 @@
 import telebot
+import os
 
-TOKEN = "8050333359:AAEc7mNDQpH27krujRlRpYZXuPqp0nH81Z8"
+TOKEN = os.getenv("BOT_TOKEN")
 SECRET_CODE = "1234"
 
 bot = telebot.TeleBot(TOKEN)
